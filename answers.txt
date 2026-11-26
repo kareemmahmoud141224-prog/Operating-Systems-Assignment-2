@@ -1,0 +1,29 @@
+Code Explanation
+
+1- process_creation.c
+
+This program uses fork() to create a new process. It prints the ID of the parent and child processes using getpid()
+
+2- file1.c
+
+This file contains a function called hello() that prints a message
+
+3- file2.c
+
+This file contains the main function and calls hello() from file1.c
+
+4- simple_program.c
+
+This program prints a simple message. We use ldd to see the libraries used by the program
+
+5- Linker
+
+The linker connects object files together to create an executable file
+
+6- Loader
+
+The loader loads the program into memory so it can run
+
+7- Makefile
+
+The Makefile allows us to compile all programs using one command instead of compiling each program separately
